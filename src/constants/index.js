@@ -22,7 +22,7 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    threejs
   } from "../assets";
   
 import python from "../assets/python.png";
@@ -32,6 +32,7 @@ import otto from "../assets/otto.png"
 import citalelogo from "../assets/citalelogo.png"
 import beatslogo2 from "../assets/beatslogo2.png"
 import ottologo from "../assets/ottologo.png"
+import cibclogo from "../assets/cibclogo.png"
 
   export const navLinks = [
     {
@@ -156,6 +157,18 @@ import ottologo from "../assets/ottologo.png"
   ];
   
   const experiences = [
+    {
+      title: "Application Software Developer",
+      company_name: "CIBC Capital Markets",
+      icon: cibclogo,
+      iconBg: "#383E56",
+      date: "Jan 2025 - Present",
+      points: [
+        "Developed and maintained client-facing and internal reports using SQL, Python, and C#, delivering accurate data insights to both internal stakeholders and external clients",
+        "Collaborated with cross-functional teams to support Prime Brokerage expansion, contributing to system enhancements and automation initiatives using Angular and C#",
+        "Designed, tested, and deployed applications to streamline operational processes, improving data accuracy and reporting efficiency for internal teams and external clients",
+      ],
+    },
     {
       title: "Frontend Developer",
       company_name: "Citale",
