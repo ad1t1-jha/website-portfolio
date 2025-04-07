@@ -41,9 +41,9 @@ const About = () => {
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        Hey! I'm Aditi, an 18-year-old Computational Mathematics student at the University of Waterloo. 
+        Hey! I'm Aditi, an 19-year-old Computational Mathematics student at the University of Waterloo. 
         I have experience with frontend & UX/UI development and am currently focusing on full-stack development, 
-        exploring machine learning models, and data science. I am currently looking for Winter 2025 internships!
+        exploring machine learning models, and data science. I am currently looking for Fall 2025 internships!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 gap-x-4">
